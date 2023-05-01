@@ -157,6 +157,13 @@ header nav ul li a:hover{
     border-radius: 5px;
     background-color:var(--color-Level-3);
     font-size: 25px;
+    transition: 0.5s all;
+}
+.call-to-action a:hover{
+    background-color: var(--color-Level-2);
+    color: white;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px black;
 }
 .call-to-action__text{
     margin-bottom: 30px;
@@ -496,6 +503,9 @@ header nav ul li a:hover{
         height: 400px;
     }
 }
+@media (max-width:880){
+
+}
 @media (max-width:860px) {
     .inicio__fondo {
         margin-top: 0px;
@@ -535,7 +545,10 @@ header nav ul li a:hover{
         
     }
 }
-@media (max-width: 740px) {
+@media (max-width: 875px) {
+    .header__bar{
+        display: none;
+    }
     header{
         position: fixed;
     width: 100%;
@@ -548,8 +561,8 @@ header nav ul li a:hover{
         width: 50%;
         height: 100vh;
         background: var(--color-Level-2);
-        top: 150px;
-        right: -180%;
+        top: 120px;
+        right: -200%;
         text-align: center;
         transition: all 0.5s;
         display: flex;
@@ -557,14 +570,19 @@ header nav ul li a:hover{
     }
     header nav ul li{
         display: block;
-        margin: 30px 0px;
-        line-height: 20px;
+        margin: 20px 0px;
+        line-height: 40px;
+        font-size: 30px;
     }
     #check:checked ~  ul{
         right: -20px ;
     }
     .inicio__fondo{
-        margin-top: 50px;
+        margin-top: 150px;
+    }
+    .inicio a{
+        padding: 20px;
+        font-size: 15px;
     }
 }
 @media (max-width: 660px) {
