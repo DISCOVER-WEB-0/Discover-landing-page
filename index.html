@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DiscoverUPC</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+        <div class="header__bar"></div>
+        <div>
+            <div class="logo">
+                <a href=""><img src="" alt="Logo DiscoverUPC"></a>
+            </div>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                  <i class="fas fa-bars"></i>
+                </label>
+                <ul>
+                    <li class="nav__inicio"><a href="#inicio">Inicio</a></li>
+                    <li class="nav__nosotros"><a href="#nosotros">Nosotros</a></li>
+                    <li class="nav__servicios"><a href="#servicios">Servicios</a></li>
+                    <li class="nav__contacto"><a href="#contacto">Contáctanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+      <section class="inicio">
+        <div class="inicio__fondo">
+          <div>
+            <h1>Encuentra todo lo que buscas en un solo lugar, para lograr la casa de tu sueños</h1>
+          </div>
+          <div class="buttons">
+            <a class="button" href="">Saber más</a>
+            <a class="button" href="">Alquilar ya!</a>
+          </div>
+        </div>
+    </section>
+      <section class="call-to-action">
+        <div class="call-to-action__img">
+          <img src="./css/imgs/llaves.jpg" alt="Mano con llaves de una casa">
+        </div>
+        <div class="call-to-action__text">
+          <p>Ven y disfruta miles de ofertas en inmuebles que tenemos para ti, busca dentro de un inmenso catálogo de casas y departamentos con otdas las comodidades que necesitas</p>
+          <a href="">Alquila ya!</a>
+          <p>Además, ¿Tienes algún inmueble que quieras alquilar? Publica en nuestra página todos sus detalles junto con el precio que deseas venderlo de una manera rápida y sencilla</p>
+          <a href="">Publica ya!</a>
+        </div>
+      </section>
+    <section class="mision-vision" id="nosotros">
+        <div class=" mision">
+          <h1>Misión</h1>
+          <p>Somos una empresa comprometida con la problemática vinculada al arrendamiento seguro de inmuebles peruanos. Proponemos un medio para conseguir información de inmuebles, además de los arrendatarios y/o arrendadores. De esta manera, las dos partes eligen sus opciones de alquiler o venta, según sea su conveniencia.</p>
+        </div>
+        <div class=" vision">
+          <h1>Visión</h1>
+          <p>Ser reconocidos como líderes nacionales que propongan una distinta alternativa de búsqueda de información beneficiosa para el mercado inmobiliario.</p>
+        </div>
+    </section>
+    <section>
+      <div class="call-action-2" id="servicios">
+        <div class="call-action-2__text">
+          <h2>PUEDES VENDER O ALQUILAR EL ESPACIO QUE TU DESEES</h2>
+          <p>Aquí podrás subir los inmuebles que desees vender y mostrar las imágenes que tu veas correspondiente, que nada te detenga en vender el inmueble</p>
+          <a href="http://localhost:4200/" class="call-action-2__button">¡Entra ya! <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+          </svg></a>
+        </div>
+        <div class="call-action-2__img">
+          <img src="./css/imgs/sofa-personas.webp" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="datos">
+      <div class="datos__card">
+        <h2>100%</h2>
+        <h3>Más rápido</h3>
+      </div>
+      <div class="datos__card">
+        <h2>2X</h2>
+        <h3>Mejorado</h3>
+      </div>
+      <div class="datos__card">
+        <h2>4.9</h2>
+        <h3>Puntuación de la<br>plataforma</h3>
+      </div>
+      <div class="datos__card">
+        <h2>5 Stars</h2>
+        <h3>Puntuación del<br>cliente</h3>
+      </div>
+    </section>
+    <section class="Contactanos" id="contact">
+      <div class="Contactanos__header">
+        <h1>¡Déjanos tus datos y te contactamos con un asesor!</h1>
+      </div>
+      <div class="Contactanos__body">
+        <form class="Contactanos__body__form">
+          <div class="Contactanos__body__twoinput">
+            <input type="name" placeholder="    Nombres*" class="Contactanos__body__twoinput__name" required> 
+            <input type="text" placeholder="     Apellido*" class="Contactanos__body__twoinput__lastname" required>
+          </div>
+          <div class="Contactanos__body__oneinput">
+            <input type="email" placeholder="    E-mail*" class="Contactanos__body__oneinput__email" required>
+          </div>
+          <div class="Contactanos__body__twoinput">
+            <input type="number" placeholder="    +51 999999999*" class="Contactanos__body__twoinput__number" required> 
+            <input type="text" placeholder="    País*" class="Contactanos__body__twoinput__country" required>
+          </div>
+          <div class="Contactanos__body__oneinput">
+            <input type="text" placeholder="    Cuéntanos algo clave para iniciar una conversación..." class="Contactanos__body__oneinput__text">
+          </div>
+          <div class="Contactanos__body__submit">
+            <input type="submit" value="Unirme" class="Contactanos__body__submitt">
+          </div>
+        </form>
+      </div>
+    </section>
+    </main>
+    <footer class="Footer">
+      <div class="Footer__center">
+        <div class="Footer__containers">
+          <div class="Footer__container1">
+              <h1>Discover</h1>
+            <h3>A un solo click de una experiencia increíble</h3>
+            <div class="Footer__container1__logos">
+              <a href="https://www.facebook.com/" target="_blank"><img class="imglogo" src="./css/imgs/facebook.svg" alt="Logo_facebook" width="40"></a>
+              <a href="https://www.linkedin.com/" target="_blank"><img class="imglogo" src="./css/imgs/linkedin.svg" alt="Logo_Ln" width="40"></a>
+              <a href="https://www.youtube.com/" target="_blank"><img class="imglogo" src="./css/imgs/youtube.svg" alt="Logo_yt" width="40"></a>
+            </div>
+          </div>
+          <div class="Footer__container2">
+            <h4>COMPANY</h4>
+            <h5><a href="#beneficios">About us</a></h5>
+            <h5><a href="https://play.google.com/store/games?hl=es_PE&gl=US" target="_blank">Google Play</a></h5>
+            <h5><a href="https://www.apple.com/la/app-store/" target="_blank">App Store</a></h5>
+          </div>
+          <div class="Footer__container4">
+            <h4>RESOURCES</h4>
+            <h5><a href="#testimonios">Testimonials</a></h3>
+            <h5>Support</h5>
+            <h5>Terms</h5>
+            <h5>Privacy</h5>
+          </div>
+        </div>
+      </div>
+      <div class="Footer__rights">
+        <p>© 2022.  All rights reserved to Discover UPC.</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
