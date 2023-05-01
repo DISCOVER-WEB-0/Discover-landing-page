@@ -3,7 +3,7 @@
 
 # Integrantes
 ```
-[Avila rabanal, José Fernando])(https://github.com/NotJofe)
+Avila rabanal, José Fernando
 Coronado Morante, Xiomara Stefany
 Abanto Alegría, Nicolas Sebastian
 Carrillo Guevara, Andreé Rodirgo
